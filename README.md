@@ -12,7 +12,7 @@ Adapted to Canary Craft (ADSCRAFT): QuizzityMC
 # This repo is designed purely for Canary Craft and has been optimised for such.
 
 ## If you still want to use it yourself, follow below:
-Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
+Welcome to the CanaryCraft server project! Here is how you can setup a connection:
 <br>
 <br>
 First, go to the top of the repo and click on code > codespaces > create codespace
@@ -25,6 +25,8 @@ Create a terminal tab and paste the following:<br>
 enter the following: `cd bungee && sudo java -jar bungee.jar`
 <br>
 <br>
-Now go to the ports area and forward (and make public) ports `8081`
+Now go to the ports area and forward (and make public) port `8081`
 <br>
 Your eaglercraft server is setup!
+
+PS: You can use this as a normal server too (like properly hosted) just clone this repo and run it in much the same way.
