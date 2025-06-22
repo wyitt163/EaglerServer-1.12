@@ -116,3 +116,11 @@
 [22:03:59] [User Authenticator #1/INFO]: UUID of player av0cad00 is 4b746eee-8505-3d1e-a19a-dcfb2ed3f926
 [22:03:59] [Server thread/INFO]: av0cad00[/127.0.0.1:60046] logged in with entity id 252 at ([world]-54.5, 64.0, 207.5)
 [22:04:15] [Server thread/INFO]: av0cad00 issued server command: /gamemode 1
+[22:08:03] [Server thread/INFO]: av0cad00 issued server command: /gamemode 1
+[22:08:05] [Server thread/INFO]: av0cad00 lost connection: Disconnected
+[22:08:05] [Server thread/INFO]: av0cad00 left the game
+[22:08:09] [User Authenticator #2/INFO]: UUID of player av0cad00 is 4b746eee-8505-3d1e-a19a-dcfb2ed3f926
+[22:08:09] [Server thread/INFO]: av0cad00[/127.0.0.1:50074] logged in with entity id 348 at ([world]-38.7937718422236, 68.0, 201.58396524710975)
+[22:08:12] [Server thread/INFO]: av0cad00 issued server command: /gamemode 1
+[22:08:14] [Server thread/INFO]: av0cad00 lost connection: Disconnected
+[22:08:14] [Server thread/INFO]: av0cad00 left the game

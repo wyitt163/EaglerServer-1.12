@@ -42,3 +42,11 @@
 [22:03:59] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:42584]: Origin header is https://localhost:8081
 [22:03:59] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] av0cad00 (/[0:0:0:0:0:0:0:1]:42584) has connected
 [22:03:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] av0cad00 -> lobby has connected
+[22:08:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] av0cad00 (/[0:0:0:0:0:0:0:1]:42584) has disconnected
+[22:08:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] av0cad00 -> lobby has disconnected
+[22:08:09] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:37532]: Connected via websocket
+[22:08:09] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:37532]: Origin header is https://localhost:8081
+[22:08:09] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] av0cad00 (/[0:0:0:0:0:0:0:1]:37532) has connected
+[22:08:09] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] av0cad00 -> lobby has connected
+[22:08:14] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] av0cad00 (/[0:0:0:0:0:0:0:1]:37532) has disconnected
+[22:08:14] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] av0cad00 -> lobby has disconnected
