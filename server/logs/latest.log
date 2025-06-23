@@ -1,8 +1,8 @@
-[16:08:54] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[16:08:54] [Server thread/INFO]: Loading properties
-[16:08:55] [Server thread/INFO]: Default game type: SURVIVAL
-[16:08:55] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[16:08:55] [Server thread/ERROR]: Encountered an unexpected exception
+[16:20:39] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:20:39] [Server thread/INFO]: Loading properties
+[16:20:39] [Server thread/INFO]: Default game type: SURVIVAL
+[16:20:40] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:20:40] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.v1_12_R1.JsonListEntry.getKey()" because "jsonlistentry" is null
 	at net.minecraft.server.v1_12_R1.JsonList.load(JsonList.java:210) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.DedicatedPlayerList.A(SourceFile:99) ~[patched_1.12.2.jar:git-Paper-1620]
@@ -10,5 +10,5 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.v1_12_R1.Jso
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:195) ~[patched_1.12.2.jar:git-Paper-1620]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:08:55] [Server thread/ERROR]: This crash report has been saved to: /workspaces/EaglerServer-1.12/server/./crash-reports/crash-2025-06-23_16.08.55-server.txt
-[16:08:55] [Server thread/INFO]: Stopping server
+[16:20:40] [Server thread/ERROR]: This crash report has been saved to: /workspaces/EaglerServer-1.12/server/./crash-reports/crash-2025-06-23_16.20.40-server.txt
+[16:20:40] [Server thread/INFO]: Stopping server
