@@ -1,44 +1,67 @@
-[01:27:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
-[01:27:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[01:27:22] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
-[01:27:22] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[01:27:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[01:27:23] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[01:27:23] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
-[01:27:23] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
-[01:27:23] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[01:27:23] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[01:27:23] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[01:27:23] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Downloading from maven: https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.45.0.0/sqlite-jdbc-3.45.0.0.jar
-[01:27:26] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[01:27:26] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_auths.db
-[01:27:26] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[01:27:26] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[01:27:26] [main/INFO] [com.velocitypowered.proxy.Metrics]: Velocity and some of its plugins collect metrics and send them to bStats (https://bStats.org).
-[01:27:26] [main/INFO] [com.velocitypowered.proxy.Metrics]: bStats collects some basic information for plugin authors, like how many people use
-[01:27:26] [main/INFO] [com.velocitypowered.proxy.Metrics]: their plugin and their total player count. It's recommended to keep bStats enabled, but
-[01:27:26] [main/INFO] [com.velocitypowered.proxy.Metrics]: if you're not comfortable with this, you can opt-out by editing the config.txt file in
-[01:27:26] [main/INFO] [com.velocitypowered.proxy.Metrics]: the '/plugins/bStats/' folder and setting enabled to false.
-[01:27:26] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (5.75s)!
-[01:27:28] [EaglerXVelocity: Update Service Tasks/INFO] [eaglerxvelocity]: Downloading new certificate: https://eaglercraft.com/backup.cert
-[01:27:28] [EaglerXVelocity: Update Service Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/eagler-testing/bungee/plugins/eaglerxvelocity/eagcert/$dl.186aa9ff417e7d87ce302c786310f2958071fc2b.cert
-[01:30:41] [EaglerXVelocity: Update Service Tasks/WARN] [eaglerxvelocity]: Certificate was deleted: $dl.186aa9ff417e7d87ce302c786310f2958071fc2b.cert
-[01:30:56] [Thread-7/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[01:30:56] [Thread-7/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
-[01:30:56] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
-[01:30:56] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
-[01:30:56] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_auths.db'
+[15:01:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-965db127-b454)...
+[15:01:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[15:01:53] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[15:01:53] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[15:01:53] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[15:01:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:a33f2d1a:b452
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[15:01:53] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[15:01:53] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.5 by lax1dude, ayunami2000
+[15:01:53] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[15:01:53] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[15:01:53] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[15:01:54] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Loading vanilla profile: lax1dude
+[15:01:54] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: Loaded vanilla profile: lax1dude
+[15:01:55] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[15:01:55] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[15:01:55] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[15:01:55] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[15:01:55] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25577
+[15:01:55] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.64s)!
+[15:02:00] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:56900]: Connected via websocket
+[15:02:00] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:56900]: Origin header is https://happinessad.github.io
+[15:02:00] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] Wy1tt (/[0:0:0:0:0:0:0:1]:56900) has connected
+[15:02:00] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Wy1tt -> lobby has connected
+[15:02:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Wy1tt (/[0:0:0:0:0:0:0:1]:56900): kicked from server lobby: Server closed
+[15:02:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Wy1tt -> lobby has disconnected
+[15:02:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Wy1tt (/[0:0:0:0:0:0:0:1]:56900) has disconnected: You were kicked from lobby: Server closed
+[15:02:25] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[15:02:25] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25577
+[15:02:25] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[15:02:25] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[15:02:25] [EaglercraftXVelocity - Task Executor #1/INFO] [eaglerxvelocity]: Stopping skin cache HTTP client...
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Caused by: java.io.IOException: Input/output error
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read0(Native Method)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:58)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:124)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:157)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[15:02:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	... 9 more
