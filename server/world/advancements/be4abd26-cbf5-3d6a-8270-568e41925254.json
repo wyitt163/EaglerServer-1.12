@@ -1,0 +1,16 @@
+{
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-06-19 04:31:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2025-06-19 04:31:34 +0000",
+      "plains": "2025-06-19 04:29:59 +0000",
+      "savanna_rock": "2025-06-19 04:31:41 +0000"
+    },
+    "done": false
+  }
+}
