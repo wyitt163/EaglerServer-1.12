@@ -1,0 +1,12 @@
+{
+  "users": {
+    "Wy1tt": {
+      "permissions": [
+        "*"
+      ],
+      "groups": [
+        "owner"
+      ]
+    }
+  }
+}

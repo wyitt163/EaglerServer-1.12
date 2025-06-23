@@ -1,7 +1,61 @@
 [
   {
-    "uuid": "febdbb10-b91d-3d00-9817-1ff489b34cde",
-    "name": "Neonic",
+    "uuid": "89af2ac4-8876-3e4b-9099-67995d552dd6",
+    "name": "Dr_Donuttt",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ef88b155-d193-3ce1-8358-12b1c35d4c13",
+    "name": "Agooo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f9853519-3fb2-3e08-87b7-d500278d1faa",
+    "name": "MEGA_PRO55",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d6571a25-0aa1-3f52-88f1-7e74db80dc6a",
+    "name": "Wifies",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4b746eee-8505-3d1e-a19a-dcfb2ed3f926",
+    "name": "av0cad00",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a4aba17c-3dff-3f42-b8af-5bd59a39f2f4",
+    "name": "Mapicca",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "dc282c39-5cc3-3cdc-ab08-252f6f98d19a",
+    "name": "MinuteTech",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "cc0aeb4f-ccf4-36eb-80f2-b8b728516050",
+    "name": "Wy1tt",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "99118db1-305c-3f3c-a764-341094ba7362",
+    "name": "RSCEnder",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f8e2aed9-e0b5-32db-bd52-a0e5c3b3c3b8",
+    "name": "SigmaSam",
     "level": 4,
     "bypassesPlayerLimit": false
   }
