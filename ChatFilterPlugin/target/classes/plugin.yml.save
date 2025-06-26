@@ -1,0 +1,73 @@
+package com.example.chatfilter;
+
+import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.event.Listener;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ChatFilter extends JavaPlugin implements Listener {
+
+    private final List<String> bannedWords = Arrays.asList("fuck", "shit", "bitch");
+
+    @Override
+    public void onEnable() {
+        getServer().getPluginManager().registerEvents(this, this);
+        getLogger().info("ChatFilter plugin enabled!");
+    }
+
+    @EventHandler
+    public void onChat(AsyncPlayerChatEvent event) {
+        String message = event.getMessage();
+        for (String word : bannedWords) {
+            message = message.replaceAll("(?i)\\b" + word + "\\b", "****");
+        }
+        event.setMessage(message);
+    }
+}
+nano ChatFilterPlugin/pom.xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>ChatFilter</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>ChatFilter</name>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+

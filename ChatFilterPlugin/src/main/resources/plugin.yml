@@ -1,0 +1,15 @@
+name: ChatFilter
+version: 1.0
+
+cat > src/main/resources/plugin.yml
+name: ChatFilter
+version: 1.0
+main: com.example.chatfilter.ChatFilter
+
+commands:
+  login:
+    description: Login to your account
+    usage: /login <password>
+  register:
+    description: Register a new account
+    usage: /register <password>
