@@ -93,7 +93,6 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
-    use-vanilla-world-scoreboard-name-coloring: false
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -102,10 +101,11 @@ world-settings:
       hard: 128
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
-    water-over-lava-flow-speed: 5
     fast-drain:
       lava: false
       water: false
+    use-vanilla-world-scoreboard-name-coloring: false
+    water-over-lava-flow-speed: 5
     lava-flow-speed:
       normal: 30
       nether: 10
